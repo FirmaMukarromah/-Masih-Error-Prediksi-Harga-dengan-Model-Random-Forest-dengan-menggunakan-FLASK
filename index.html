@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>TV Price Prediction</title>
+  </head>
+
+<body> 
+    <h3>TV Price Prediction </h3> 
+  
+<div> 
+  <form action="/predict_api" method="POST"> 
+    <label for="produk">Produk</label> 
+    <input type="text" id="produk" name="produk"> 
+    
+	<br> 
+	<label for="merek">Merek</label> 
+    <select id="merek" name="merek"> 
+      <option value="0">AKARI</option> 
+      <option value="1">AQUA</option> 
+      <option value="2">Changhong</option>
+	  <option value="3">Coocaa</option>
+	  <option value="4">LG</option>
+	  <option value="5">Mito</option>
+	  <option value="6">Panasonic</option>
+	  <option value="7">Philips</option>
+	  <option value="8">Polytron</option>
+	  <option value="9">SANKEN</option>
+	  <option value="10">SANYO</option>
+	  <option value="11">Samsung</option>
+	  <option value="12">Sharp</option>
+	  <option value="13">Sony</option>
+	  <option value="14">TCL</option>
+	  <option value="15">TOSHIBA</option>
+	  <option value="16">Xiaomi</option>
+    </select>
+	
+	<br>
+    <label for="tipe">Tipe</label> 
+    <input type="text" id="tipe" name="tipe"> 
+	
+	
+    <br> 
+    <label for="ukuran">Ukuran</label> 
+    <select id="ukuran" name="ukuran"> 
+      <option value="0">19</option> 
+      <option value="1">20</option> 
+      <option value="2">21</option> 
+      <option value="3">22</option> 
+      <option value="4">23</option> 
+      <option value="5">24</option>
+	  <option value="6">25</option>
+	  <option value="7">28</option>
+	  <option value="8">29</option>
+	  <option value="9">32</option>
+	  <option value="10">39</option>
+	  <option value="11">40</option>
+	  <option value="12">42</option>
+	  <option value="13">43</option>
+	  <option value="14">45</option>
+	  <option value="15">46</option>
+	  <option value="16">47</option>
+	  <option value="17">48</option>
+	  <option value="18">49</option>
+	  <option value="19">50</option>
+	  <option value="20">55</option>
+	  <option value="21">58</option>
+	  <option value="22">60</option>
+	  <option value="23">65</option>
+	  <option value="24">70</option>
+	  <option value="25">75</option>
+	  <option value="26">79</option>
+	  <option value="27">80</option>
+	  <option value="28">84</option>
+	  <option value="29">86</option>
+	  <option value="30">98</option>
+    </select>
+	    
+	<br> 
+    <button type="submit" value="Submit" class="btn btn-primary btn-block btn-large">Submit</button> 
+	
+	</form> 
+	</div> 
+</body> 
+</html> 
